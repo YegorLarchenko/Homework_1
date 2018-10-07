@@ -11,9 +11,11 @@ var c = prompt ("Введите число №3", "");
 if (a == b && a == c) {
     alert (3);
 }
-else (a == b || a == c || b == c) {
+else {
+    if (a == b || a == c || b == c) {
     alert (2);
-}
+    }
 else {
     alert (0);
+}
 }
